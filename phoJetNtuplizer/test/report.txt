@@ -1,0 +1,235 @@
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018A/results
+Summary from jobs in status 'finished':
+  Number of files processed: 4765
+  Number of events read: 308652991
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018A/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018B/results
+Summary from jobs in status 'finished':
+  Number of files processed: 1862
+  Number of events read: 139144140
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018B/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018C/results
+Summary from jobs in status 'finished':
+  Number of files processed: 2178
+  Number of events read: 143781609
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018C/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018D_1/results
+Summary from jobs in status 'finished':
+  Number of files processed: 3633
+  Number of events read: 158095078
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018D_1/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018D_2/results
+Summary from jobs in status 'finished':
+  Number of files processed: 3706
+  Number of events read: 162527149
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018D_2/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018D_3/results
+Summary from jobs in status 'finished':
+  Number of files processed: 6563
+  Number of events read: 404069829
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_EGamma2018D_3/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonA/results
+Summary from jobs in status 'finished':
+  Number of files processed: 3224
+  Number of events read: 227489240
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonA/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonB/results
+Summary from jobs in status 'finished':
+  Number of files processed: 1549
+  Number of events read: 110446445
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonB/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonC/results
+Summary from jobs in status 'finished':
+  Number of files processed: 1553
+  Number of events read: 107972995
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonC/crab.log
+Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonD_PromptReco
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonD_PromptReco_1/results
+Summary from jobs in status 'finished':
+  Number of files processed: 1334
+  Number of events read: 120488151
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonD_PromptReco_1/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonD_PromptReco_2/results
+Summary from jobs in status 'finished':
+  Number of files processed: 1208
+  Number of events read: 111202012
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonD_PromptReco_2/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonD_PromptReco_3/results
+Summary from jobs in status 'finished':
+  Number of files processed: 2823
+  Number of events read: 260947272
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_SingleMuonD_PromptReco_3/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauA/results
+Summary from jobs in status 'finished':
+  Number of files processed: 1068
+  Number of events read: 59503851
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauA/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauB/results
+Summary from jobs in status 'finished':
+  Number of files processed: 554
+  Number of events read: 29788612
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauB/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauC/results
+Summary from jobs in status 'finished':
+  Number of files processed: 2
+  Number of events read: 46510
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauC/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauD_PromptReco_1/results
+Summary from jobs in status 'finished':
+  Number of files processed: 531
+  Number of events read: 37028500
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauD_PromptReco_1/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauD_PromptReco_2/results
+Summary from jobs in status 'finished':
+  Number of files processed: 470
+  Number of events read: 34124487
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauD_PromptReco_2/crab.log
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauD_PromptReco_3/results
+Summary from jobs in status 'finished':
+  Number of files processed: 1216
+  Number of events read: 91199744
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2018_wDnn/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2018_13Mar2020/crab_job_TauD_PromptReco_3/crab.log

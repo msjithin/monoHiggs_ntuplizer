@@ -1,0 +1,7 @@
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200423_231824%3Ajmadhusu_crab_job_DY1JetsToLL
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200423_231801%3Ajmadhusu_crab_job_DYJetsToLL
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200423_233142%3Ajmadhusu_crab_job_ST_t-channel_top
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200423_231558%3Ajmadhusu_crab_job_TTToHadronic_powheg
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200423_231535%3Ajmadhusu_crab_job_TTToSemiLeptonic_powheg
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200423_232025%3Ajmadhusu_crab_job_WJetsToLNu_0J_Incl
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/200423_232048%3Ajmadhusu_crab_job_WJetsToLNu_1J_Incl
