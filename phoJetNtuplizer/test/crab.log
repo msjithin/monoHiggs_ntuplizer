@@ -1,0 +1,2375 @@
+DEBUG 2020-03-20 14:12:14.194 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 14:12:14.232 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 14:12:14.233 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 14:12:14.234 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 14:12:14.271 UTC: 	 Checking credentials
+DEBUG 2020-03-20 14:12:14.271 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 14:12:14.271 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 14:12:14.982 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172697
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 14:12:15.191 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172696
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 14:12:15.191 UTC: 	 Proxy lifetime 172697 secs is different from voms extension lifetime 172696 secs for proxy: /tmp/x509up_u4548
+DEBUG 2020-03-20 14:12:15.191 UTC: 	 Proxy valid for 47:58:16 hours
+INFO 2020-03-20 14:12:15.192 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-mc_monoHiggs_wDNN.py
+DEBUG 2020-03-20 14:12:15.192 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-03-20 14:13:25.282 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-03-20 14:13:25.283 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020_test/crab_job_TTToSemiLeptonic_TuneCP5' already exists 
+Please change the requestName in the config file
+ERROR 2020-03-20 14:13:25.283 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020_test/crab_job_TTToSemiLeptonic_TuneCP5' already exists 
+Please change the requestName in the config file
+DEBUG 2020-03-20 14:51:57.625 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 14:51:57.663 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 14:51:57.664 UTC: 	 Executing command: 'status'
+DEBUG 2020-03-20 14:51:57.665 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-20 14:51:57.667 UTC: 	 Error: crab_MC2018_Autumn18_monoHiggs_12Mar/crab_job_ZJetsToNuNu_HT1200-2500 is not a valid CRAB project directory.
+ERROR 2020-03-20 14:51:57.667 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 595, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_MC2018_Autumn18_monoHiggs_12Mar/crab_job_ZJetsToNuNu_HT1200-2500 is not a valid CRAB project directory.
+DEBUG 2020-03-20 14:54:45.257 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 14:54:45.294 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 14:54:45.295 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 14:54:45.295 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 14:54:45.311 UTC: 	 Checking credentials
+DEBUG 2020-03-20 14:54:45.311 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 14:54:45.312 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 14:54:45.420 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 170146
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 14:54:45.529 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 170146
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 14:54:45.530 UTC: 	 Proxy valid for 47:15:46 hours
+INFO 2020-03-20 14:54:45.530 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-data_monoHiggs_wDNN.py
+DEBUG 2020-03-20 14:54:45.531 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-03-20 15:02:35.993 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-03-20 15:02:35.995 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2017_31Mar2018_20Mar2020/crab_job_MuonEG_EraF' already exists 
+Please change the requestName in the config file
+ERROR 2020-03-20 15:02:35.995 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2017_31Mar2018_20Mar2020/crab_job_MuonEG_EraF' already exists 
+Please change the requestName in the config file
+DEBUG 2020-03-20 15:07:22.827 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 15:07:22.863 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 15:07:22.863 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 15:07:22.864 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 15:07:22.880 UTC: 	 Checking credentials
+DEBUG 2020-03-20 15:07:22.881 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 15:07:22.881 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 15:07:23.090 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 169389
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 15:07:23.298 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 169388
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 15:07:23.298 UTC: 	 Proxy lifetime 169389 secs is different from voms extension lifetime 169388 secs for proxy: /tmp/x509up_u4548
+DEBUG 2020-03-20 15:07:23.298 UTC: 	 Proxy valid for 47:03:08 hours
+DEBUG 2020-03-20 15:07:23.300 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:24.249 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:24.264 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:24.265 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:24.265 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:24.271 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:24.271 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:24.271 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:24.375 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172330
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:24.480 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172330
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:24.480 UTC: 	 Proxy valid for 47:52:10 hours
+DEBUG 2020-03-20 16:05:24.481 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:24.541 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:24.555 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:24.555 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:24.555 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:24.561 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:24.562 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:24.562 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:24.665 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172330
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:24.769 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172330
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:24.770 UTC: 	 Proxy valid for 47:52:10 hours
+DEBUG 2020-03-20 16:05:24.771 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:24.826 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:24.838 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:24.839 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:24.839 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:24.846 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:24.846 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:24.846 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:24.951 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172330
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:25.055 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172330
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:25.055 UTC: 	 Proxy valid for 47:52:10 hours
+DEBUG 2020-03-20 16:05:25.056 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:25.090 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:25.102 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:25.103 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:25.103 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:25.109 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:25.110 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:25.110 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:25.213 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172329
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:25.317 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172329
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:25.317 UTC: 	 Proxy valid for 47:52:09 hours
+DEBUG 2020-03-20 16:05:25.318 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:25.372 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:25.385 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:25.386 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:25.386 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:25.393 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:25.393 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:25.393 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:25.497 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172329
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:25.601 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172329
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:25.602 UTC: 	 Proxy valid for 47:52:09 hours
+DEBUG 2020-03-20 16:05:25.603 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:25.663 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:25.675 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:25.676 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:25.676 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:25.682 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:25.682 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:25.682 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:25.785 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172329
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:25.889 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172329
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:25.889 UTC: 	 Proxy valid for 47:52:09 hours
+DEBUG 2020-03-20 16:05:25.890 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:25.937 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:25.949 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:25.950 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:25.950 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:25.956 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:25.956 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:25.956 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:26.060 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172329
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:26.164 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172328
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:26.165 UTC: 	 Proxy lifetime 172329 secs is different from voms extension lifetime 172328 secs for proxy: /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:26.165 UTC: 	 Proxy valid for 47:52:08 hours
+DEBUG 2020-03-20 16:05:26.166 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:26.199 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:26.211 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:26.211 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:26.212 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:26.218 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:26.219 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:26.219 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:26.322 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172328
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:26.426 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172328
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:26.426 UTC: 	 Proxy valid for 47:52:08 hours
+DEBUG 2020-03-20 16:05:26.427 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:26.460 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:26.473 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:26.473 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:26.474 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:26.480 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:26.481 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:26.481 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:26.584 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172328
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:26.688 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172328
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:26.688 UTC: 	 Proxy valid for 47:52:08 hours
+DEBUG 2020-03-20 16:05:26.689 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:26.728 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:26.740 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:26.740 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:26.741 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:26.746 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:26.747 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:26.747 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:26.850 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172328
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:26.954 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172328
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:26.955 UTC: 	 Proxy valid for 47:52:08 hours
+DEBUG 2020-03-20 16:05:26.956 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:26.988 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:27.002 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:27.002 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:27.003 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:27.010 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:27.010 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:27.010 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:27.114 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172327
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:27.219 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172327
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:27.219 UTC: 	 Proxy valid for 47:52:07 hours
+DEBUG 2020-03-20 16:05:27.220 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:27.257 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:27.269 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:27.269 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:27.270 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:27.276 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:27.277 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:27.277 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:27.381 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172327
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:27.486 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172327
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:27.486 UTC: 	 Proxy valid for 47:52:07 hours
+DEBUG 2020-03-20 16:05:27.487 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:27.521 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:27.534 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:27.534 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:27.535 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:27.541 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:27.542 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:27.542 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:27.646 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172327
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:27.751 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172327
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:27.751 UTC: 	 Proxy valid for 47:52:07 hours
+DEBUG 2020-03-20 16:05:27.752 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:27.788 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:27.802 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:27.802 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:27.803 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:27.809 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:27.809 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:27.809 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:27.913 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172327
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:28.017 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172327
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:28.017 UTC: 	 Proxy valid for 47:52:07 hours
+DEBUG 2020-03-20 16:05:28.018 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:28.054 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:28.066 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:28.067 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:28.067 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:28.073 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:28.073 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:28.073 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:28.177 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172326
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:28.282 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172326
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:28.282 UTC: 	 Proxy valid for 47:52:06 hours
+DEBUG 2020-03-20 16:05:28.283 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:28.321 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:28.335 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:28.335 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:28.335 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:28.341 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:28.341 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:28.341 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:28.444 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172326
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:28.548 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172326
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:28.548 UTC: 	 Proxy valid for 47:52:06 hours
+DEBUG 2020-03-20 16:05:28.549 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:28.605 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:28.619 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:28.619 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:28.620 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:28.627 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:28.627 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:28.627 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:28.732 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172326
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:28.836 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172326
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:28.837 UTC: 	 Proxy valid for 47:52:06 hours
+DEBUG 2020-03-20 16:05:28.838 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:31.983 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:31.995 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:31.996 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:31.996 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:32.003 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:32.003 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:32.003 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:32.107 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172322
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:32.211 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172322
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:32.212 UTC: 	 Proxy valid for 47:52:02 hours
+DEBUG 2020-03-20 16:05:32.213 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:32.246 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:32.259 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:32.259 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:32.260 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:32.267 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:32.267 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:32.267 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:32.371 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172322
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:32.476 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172322
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:32.476 UTC: 	 Proxy valid for 47:52:02 hours
+DEBUG 2020-03-20 16:05:32.477 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:32.526 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:32.538 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:32.539 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:32.539 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:32.544 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:32.545 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:32.545 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:32.648 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172322
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:32.751 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172322
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:32.752 UTC: 	 Proxy valid for 47:52:02 hours
+DEBUG 2020-03-20 16:05:32.752 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:32.787 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:32.799 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:32.799 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:32.800 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:32.805 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:32.806 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:32.806 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:32.909 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172322
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:33.014 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172322
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:33.014 UTC: 	 Proxy valid for 47:52:02 hours
+DEBUG 2020-03-20 16:05:33.015 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:33.051 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:33.063 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:33.064 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:33.064 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:33.070 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:33.070 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:33.070 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:33.174 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172321
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:33.279 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172321
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:33.279 UTC: 	 Proxy valid for 47:52:01 hours
+DEBUG 2020-03-20 16:05:33.280 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:33.316 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:33.331 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:33.331 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:33.332 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:33.339 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:33.339 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:33.339 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:33.443 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172321
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:33.547 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172321
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:33.547 UTC: 	 Proxy valid for 47:52:01 hours
+DEBUG 2020-03-20 16:05:33.548 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:33.587 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:33.600 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:33.600 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:33.601 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:33.607 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:33.608 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:33.608 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:33.711 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172321
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:33.816 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172321
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:33.816 UTC: 	 Proxy valid for 47:52:01 hours
+DEBUG 2020-03-20 16:05:33.817 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:33.857 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:33.870 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:33.870 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:33.870 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:33.876 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:33.876 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:33.876 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:33.980 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172321
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:34.084 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172320
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:34.085 UTC: 	 Proxy lifetime 172321 secs is different from voms extension lifetime 172320 secs for proxy: /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:34.085 UTC: 	 Proxy valid for 47:52:00 hours
+DEBUG 2020-03-20 16:05:34.086 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:51.864 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:51.877 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:51.877 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:51.878 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:51.885 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:51.885 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:51.885 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:51.990 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172303
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:52.094 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172302
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:52.094 UTC: 	 Proxy lifetime 172303 secs is different from voms extension lifetime 172302 secs for proxy: /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:52.094 UTC: 	 Proxy valid for 47:51:42 hours
+DEBUG 2020-03-20 16:05:52.095 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:52.130 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:52.142 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:52.142 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:52.143 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:52.150 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:52.150 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:52.150 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:52.254 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172302
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:52.358 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172302
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:52.359 UTC: 	 Proxy valid for 47:51:42 hours
+DEBUG 2020-03-20 16:05:52.360 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:52.393 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:52.405 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:52.405 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:52.406 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:52.412 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:52.412 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:52.412 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:52.516 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172302
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:52.621 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172302
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:52.621 UTC: 	 Proxy valid for 47:51:42 hours
+DEBUG 2020-03-20 16:05:52.622 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:52.659 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:52.671 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:52.672 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:52.672 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:52.679 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:52.680 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:52.680 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:52.784 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172302
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:52.888 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172302
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:52.888 UTC: 	 Proxy valid for 47:51:42 hours
+DEBUG 2020-03-20 16:05:52.889 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:52.924 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:52.938 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:52.939 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:52.939 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:52.946 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:52.946 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:52.946 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:53.050 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172302
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:53.154 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172301
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:53.155 UTC: 	 Proxy lifetime 172302 secs is different from voms extension lifetime 172301 secs for proxy: /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:53.155 UTC: 	 Proxy valid for 47:51:41 hours
+DEBUG 2020-03-20 16:05:53.156 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:53.192 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:53.206 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:53.207 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:53.207 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:53.214 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:53.214 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:53.214 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:53.318 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172301
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:53.423 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172301
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:53.423 UTC: 	 Proxy valid for 47:51:41 hours
+DEBUG 2020-03-20 16:05:53.424 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:53.462 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:53.476 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:53.476 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:53.477 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:53.484 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:53.484 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:53.484 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:53.588 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172301
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:53.692 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172301
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:53.692 UTC: 	 Proxy valid for 47:51:41 hours
+DEBUG 2020-03-20 16:05:53.693 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:53.730 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:53.747 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:53.748 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:53.748 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:53.755 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:53.755 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:53.755 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:53.859 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172301
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:53.963 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172301
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:53.963 UTC: 	 Proxy valid for 47:51:41 hours
+DEBUG 2020-03-20 16:05:53.964 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:54.002 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:54.015 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:54.015 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:54.016 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:54.022 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:54.022 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:54.022 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:54.125 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172300
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:54.228 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172300
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:54.228 UTC: 	 Proxy valid for 47:51:40 hours
+DEBUG 2020-03-20 16:05:54.229 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:54.267 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:54.280 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:54.280 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:54.281 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:54.287 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:54.288 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:54.288 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:54.392 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172300
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:54.497 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172300
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:54.498 UTC: 	 Proxy valid for 47:51:40 hours
+DEBUG 2020-03-20 16:05:54.499 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:54.537 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:54.549 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:54.550 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:54.550 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:54.556 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:54.556 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:54.556 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:54.659 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172300
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:54.763 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172300
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:54.764 UTC: 	 Proxy valid for 47:51:40 hours
+DEBUG 2020-03-20 16:05:54.765 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:54.801 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:54.815 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:54.815 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:54.815 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:54.822 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:54.822 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:54.822 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:54.926 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172300
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:55.030 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172300
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:55.030 UTC: 	 Proxy valid for 47:51:40 hours
+DEBUG 2020-03-20 16:05:55.031 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:55.068 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:55.082 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:55.082 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:55.083 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:55.089 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:55.089 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:55.089 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:55.193 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172299
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:55.298 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172299
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:55.298 UTC: 	 Proxy valid for 47:51:39 hours
+DEBUG 2020-03-20 16:05:55.299 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:55.338 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:55.351 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:55.351 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:55.351 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:55.358 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:55.358 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:55.359 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:55.463 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172299
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:55.567 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172299
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:55.568 UTC: 	 Proxy valid for 47:51:39 hours
+DEBUG 2020-03-20 16:05:55.569 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:55.606 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:55.620 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:55.620 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:55.620 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:55.627 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:55.628 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:55.628 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:55.732 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172299
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:55.836 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172299
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:55.836 UTC: 	 Proxy valid for 47:51:39 hours
+DEBUG 2020-03-20 16:05:55.837 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:55.878 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:55.891 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:55.891 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:55.891 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:55.898 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:55.898 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:55.899 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:56.003 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172299
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:56.106 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172298
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:56.106 UTC: 	 Proxy lifetime 172299 secs is different from voms extension lifetime 172298 secs for proxy: /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:56.106 UTC: 	 Proxy valid for 47:51:38 hours
+DEBUG 2020-03-20 16:05:56.107 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:56.146 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:56.158 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:56.159 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:56.159 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:56.165 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:56.166 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:56.166 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:56.269 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172298
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:56.372 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172298
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:56.373 UTC: 	 Proxy valid for 47:51:38 hours
+DEBUG 2020-03-20 16:05:56.374 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:56.412 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:56.425 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:56.426 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:56.426 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:56.433 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:56.433 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:56.433 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:56.537 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172298
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:56.642 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172298
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:56.642 UTC: 	 Proxy valid for 47:51:38 hours
+DEBUG 2020-03-20 16:05:56.643 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:56.682 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:56.694 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:56.695 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:56.695 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:56.702 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:56.702 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:56.702 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:56.806 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172298
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:56.910 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172298
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:56.910 UTC: 	 Proxy valid for 47:51:38 hours
+DEBUG 2020-03-20 16:05:56.911 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:56.947 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:56.961 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:56.962 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:56.962 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:56.968 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:56.968 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:56.968 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:57.072 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172297
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:57.177 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172297
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:57.177 UTC: 	 Proxy valid for 47:51:37 hours
+DEBUG 2020-03-20 16:05:57.178 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:57.214 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:57.227 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:57.228 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:57.228 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:57.234 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:57.234 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:57.234 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:57.338 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172297
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:57.443 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172297
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:57.443 UTC: 	 Proxy valid for 47:51:37 hours
+DEBUG 2020-03-20 16:05:57.444 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:57.480 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:57.495 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:57.495 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:57.496 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:57.503 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:57.503 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:57.503 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:57.607 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172297
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:57.711 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172297
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:57.712 UTC: 	 Proxy valid for 47:51:37 hours
+DEBUG 2020-03-20 16:05:57.713 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:57.751 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:57.764 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:57.764 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:57.765 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:57.772 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:57.772 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:57.772 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:57.875 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172297
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:57.979 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172297
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:57.979 UTC: 	 Proxy valid for 47:51:37 hours
+DEBUG 2020-03-20 16:05:57.980 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:58.024 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:58.037 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:58.038 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:58.038 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:58.044 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:58.044 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:58.044 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:58.148 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172296
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:58.253 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172296
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:58.253 UTC: 	 Proxy valid for 47:51:36 hours
+DEBUG 2020-03-20 16:05:58.254 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:58.298 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:58.310 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:58.311 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:58.311 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:58.317 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:58.317 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:58.317 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:58.421 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172296
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:58.525 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172296
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:58.525 UTC: 	 Proxy valid for 47:51:36 hours
+DEBUG 2020-03-20 16:05:58.527 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:58.569 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:58.583 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:58.583 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:58.584 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:58.590 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:58.591 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:58.591 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:58.695 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172296
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:58.800 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172296
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:58.800 UTC: 	 Proxy valid for 47:51:36 hours
+DEBUG 2020-03-20 16:05:58.801 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-03-20 16:05:51.601 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:05:51.615 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:05:51.615 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-20 16:05:51.616 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-20 16:05:51.623 UTC: 	 Checking credentials
+DEBUG 2020-03-20 16:05:51.624 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-20 16:05:51.624 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-20 16:05:51.728 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172303
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:51.832 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172303
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-20 16:05:51.832 UTC: 	 Proxy valid for 47:51:43 hours
+INFO 2020-03-20 16:05:51.833 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-mc_monoHiggs_wDNN.py
+DEBUG 2020-03-20 16:05:51.833 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-03-20 16:13:23.337 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-03-20 16:13:23.337 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_ZZZ_TuneCP5' already exists 
+Please change the requestName in the config file
+ERROR 2020-03-20 16:13:23.337 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_ZZZ_TuneCP5' already exists 
+Please change the requestName in the config file
+DEBUG 2020-03-20 16:22:50.900 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:22:50.913 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:22:50.914 UTC: 	 Executing command: 'status'
+DEBUG 2020-03-20 16:22:50.914 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-20 16:22:50.915 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-20 16:22:50.915 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-20 16:22:56.320 UTC: 	 Running on: Linux login04.hep.wisc.edu 4.4.201-1.el7.elrepo.x86_64 #1 SMP Tue Nov 12 14:34:24 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-20 16:22:56.334 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-20 16:22:56.334 UTC: 	 Executing command: 'status'
+DEBUG 2020-03-20 16:22:56.334 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-20 16:22:56.336 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-20 16:22:56.336 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-21 10:12:33.173 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 10:12:33.209 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 10:12:33.210 UTC: 	 Executing command: 'status'
+DEBUG 2020-03-21 10:12:33.211 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 10:12:33.229 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-21 10:12:33.230 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-21 10:12:40.227 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 10:12:40.261 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 10:12:40.262 UTC: 	 Executing command: 'status'
+DEBUG 2020-03-21 10:12:40.262 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 10:12:40.264 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-21 10:12:40.265 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-21 11:48:34.176 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 11:48:34.202 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 11:48:34.203 UTC: 	 Executing command: 'submit'
+DEBUG 2020-03-21 11:48:34.203 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-03-21 11:48:34.220 UTC: 	 Checking credentials
+DEBUG 2020-03-21 11:48:34.220 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-03-21 11:48:34.221 UTC: 	 Getting proxy life time left
+DEBUG 2020-03-21 11:48:34.329 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172541
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-21 11:48:34.538 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172541
+
+ error: 
+ retcode : 0
+DEBUG 2020-03-21 11:48:34.539 UTC: 	 Proxy valid for 47:55:41 hours
+INFO 2020-03-21 11:48:34.539 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-mc_monoHiggs_wDNN.py
+DEBUG 2020-03-21 11:48:34.539 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-03-21 11:48:58.821 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-03-21 11:48:58.826 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_DY4JetsToLL_M-50_TuneCP5' already exists 
+Please change the requestName in the config file
+ERROR 2020-03-21 11:48:58.826 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_DY4JetsToLL_M-50_TuneCP5' already exists 
+Please change the requestName in the config file
+DEBUG 2020-03-21 11:58:30.773 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 11:58:30.809 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 11:58:30.810 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 11:58:30.811 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 11:58:30.814 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-21 11:58:30.814 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-21 11:58:42.367 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 11:58:42.403 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 11:58:42.404 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 11:58:42.404 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 11:58:42.407 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-21 11:58:42.425 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-21 14:13:43.026 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 14:13:43.062 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 14:13:43.063 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 14:13:43.064 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 14:13:43.067 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-21 14:13:43.067 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-21 14:13:54.503 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 14:13:54.536 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 14:13:54.537 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 14:13:54.538 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 14:13:54.541 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-21 14:13:54.541 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-21 16:28:06.906 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 16:28:06.940 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 16:28:06.941 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 16:28:06.941 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 16:28:06.948 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-21 16:28:06.949 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-21 16:28:17.994 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 16:28:18.018 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 16:28:18.019 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 16:28:18.020 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 16:28:18.025 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-21 16:28:18.025 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-21 18:42:38.272 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 18:42:38.307 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 18:42:38.308 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 18:42:38.308 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 18:42:38.311 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-21 18:42:38.312 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-21 18:42:49.391 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 18:42:49.425 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 18:42:49.426 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 18:42:49.426 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 18:42:49.429 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-21 18:42:49.430 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-21 20:56:57.593 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 20:56:57.628 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 20:56:57.629 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 20:56:57.629 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 20:56:57.633 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-21 20:56:57.634 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-21 20:57:09.254 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-21 20:57:09.289 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-21 20:57:09.289 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-21 20:57:09.290 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-21 20:57:09.294 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-21 20:57:09.295 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-22 09:35:30.778 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.206-1.el7.elrepo.x86_64 #1 SMP Thu Dec 5 10:29:47 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 09:35:30.813 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 09:35:30.814 UTC: 	 Executing command: 'status'
+DEBUG 2020-03-22 09:35:30.814 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 09:35:30.820 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-22 09:35:30.821 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-22 09:35:39.019 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.206-1.el7.elrepo.x86_64 #1 SMP Thu Dec 5 10:29:47 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 09:35:39.054 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 09:35:39.055 UTC: 	 Executing command: 'status'
+DEBUG 2020-03-22 09:35:39.055 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 09:35:39.061 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-22 09:35:39.061 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-22 09:47:41.656 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.206-1.el7.elrepo.x86_64 #1 SMP Thu Dec 5 10:29:47 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 09:47:41.688 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 09:47:41.689 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-22 09:47:41.690 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 09:47:41.692 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-22 09:47:41.693 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-22 09:47:52.943 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.206-1.el7.elrepo.x86_64 #1 SMP Thu Dec 5 10:29:47 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 09:47:52.977 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 09:47:52.978 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-22 09:47:52.979 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 09:47:52.982 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-22 09:47:52.983 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-22 12:02:41.984 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.206-1.el7.elrepo.x86_64 #1 SMP Thu Dec 5 10:29:47 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 12:02:42.016 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 12:02:42.017 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-22 12:02:42.018 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 12:02:42.021 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-22 12:02:42.021 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-22 12:02:53.684 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.206-1.el7.elrepo.x86_64 #1 SMP Thu Dec 5 10:29:47 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 12:02:53.718 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 12:02:53.719 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-22 12:02:53.719 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 12:02:53.722 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-22 12:02:53.723 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-22 13:41:15.695 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 13:41:15.730 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 13:41:15.731 UTC: 	 Executing command: 'status'
+DEBUG 2020-03-22 13:41:15.732 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 13:41:15.735 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-22 13:41:15.736 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-22 13:41:23.051 UTC: 	 Running on: Linux login05.hep.wisc.edu 4.4.188-1.el7.elrepo.x86_64 #1 SMP Tue Aug 6 13:44:31 EDT 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 13:41:23.079 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 13:41:23.080 UTC: 	 Executing command: 'status'
+DEBUG 2020-03-22 13:41:23.080 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 13:41:23.082 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-22 13:41:23.082 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-03-22 14:17:37.592 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.206-1.el7.elrepo.x86_64 #1 SMP Thu Dec 5 10:29:47 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 14:17:37.621 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 14:17:37.622 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-22 14:17:37.622 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 14:17:37.626 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-03-22 14:17:37.627 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-03-22 14:17:49.052 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.206-1.el7.elrepo.x86_64 #1 SMP Thu Dec 5 10:29:47 EST 2019 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-03-22 14:17:49.086 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-03-22 14:17:49.087 UTC: 	 Executing command: 'resubmit'
+DEBUG 2020-03-22 14:17:49.088 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-03-22 14:17:49.092 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-03-22 14:17:49.092 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-04-17 11:02:56.364 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-17 11:02:56.383 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-17 11:02:56.384 UTC: 	 Executing command: 'status'
+DEBUG 2020-04-17 11:02:56.384 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-04-17 11:02:56.385 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-04-17 11:02:56.386 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-04-17 11:03:02.911 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-17 11:03:02.928 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-17 11:03:02.929 UTC: 	 Executing command: 'status'
+DEBUG 2020-04-17 11:03:02.929 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-04-17 11:03:02.931 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+ERROR 2020-04-17 11:03:02.931 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKZ2Jets_ZToNuNu_TuneCP5
+DEBUG 2020-04-22 08:58:16.586 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 08:58:16.603 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 08:58:16.604 UTC: 	 Executing command: 'status'
+DEBUG 2020-04-22 08:58:16.605 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+ERROR 2020-04-22 08:58:16.637 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+ERROR 2020-04-22 08:58:16.637 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 277, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 599, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 461, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_20Mar2020/crab_job_EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+DEBUG 2020-04-22 10:19:40.164 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 10:19:40.182 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 10:19:40.183 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 10:19:40.183 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 10:19:40.193 UTC: 	 Checking credentials
+DEBUG 2020-04-22 10:19:40.193 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 10:19:40.193 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 10:19:40.297 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172794
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 10:19:40.402 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172794
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 10:19:40.403 UTC: 	 Proxy valid for 47:59:54 hours
+INFO 2020-04-22 10:19:40.403 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-data_monoHiggs_wDNN.py
+DEBUG 2020-04-22 10:19:40.403 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-04-22 10:25:51.879 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-04-22 10:25:51.880 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2017_31Mar2018_22April2020/crab_job_MuonEG_EraF' already exists 
+Please change the requestName in the config file
+ERROR 2020-04-22 10:25:51.880 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2017_31Mar2018_22April2020/crab_job_MuonEG_EraF' already exists 
+Please change the requestName in the config file
+DEBUG 2020-04-22 10:29:36.275 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 10:29:36.294 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 10:29:36.294 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 10:29:36.295 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 10:29:36.303 UTC: 	 Checking credentials
+DEBUG 2020-04-22 10:29:36.304 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 10:29:36.304 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 10:29:36.409 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172198
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 10:29:36.514 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172198
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 10:29:36.515 UTC: 	 Proxy valid for 47:49:58 hours
+DEBUG 2020-04-22 10:29:36.516 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 10:25:52.618 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 10:25:52.636 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 10:25:52.637 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 10:25:52.637 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 10:25:52.646 UTC: 	 Checking credentials
+DEBUG 2020-04-22 10:25:52.646 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 10:25:52.646 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 10:25:52.751 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172422
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 10:25:52.856 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172422
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 10:25:52.857 UTC: 	 Proxy valid for 47:53:42 hours
+INFO 2020-04-22 10:25:52.857 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-mc_monoHiggs_wDNN.py
+DEBUG 2020-04-22 10:25:52.857 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-04-22 10:39:56.514 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-04-22 10:39:56.515 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_22April2020/crab_job_ZZZ_TuneCP5' already exists 
+Please change the requestName in the config file
+ERROR 2020-04-22 10:39:56.515 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_22April2020/crab_job_ZZZ_TuneCP5' already exists 
+Please change the requestName in the config file
+DEBUG 2020-04-22 19:31:35.326 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:35.343 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:35.344 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:35.344 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:35.352 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:35.353 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:35.353 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:35.456 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172789
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:35.562 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172789
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:35.562 UTC: 	 Proxy valid for 47:59:49 hours
+DEBUG 2020-04-22 19:31:35.563 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:35.631 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:35.648 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:35.649 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:35.649 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:35.657 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:35.657 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:35.658 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:35.762 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172789
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:35.868 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172789
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:35.868 UTC: 	 Proxy valid for 47:59:49 hours
+DEBUG 2020-04-22 19:31:35.870 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:35.918 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:35.934 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:35.934 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:35.934 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:35.942 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:35.942 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:35.942 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:36.045 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172789
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:36.150 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172788
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:36.151 UTC: 	 Proxy lifetime 172789 secs is different from voms extension lifetime 172788 secs for proxy: /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:36.151 UTC: 	 Proxy valid for 47:59:48 hours
+DEBUG 2020-04-22 19:31:36.152 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:36.201 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:36.218 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:36.218 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:36.218 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:36.226 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:36.226 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:36.227 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:36.330 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172788
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:36.436 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172788
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:36.436 UTC: 	 Proxy valid for 47:59:48 hours
+DEBUG 2020-04-22 19:31:36.437 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:36.495 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:36.513 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:36.513 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:36.514 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:36.521 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:36.522 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:36.522 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:36.625 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172788
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:36.731 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172788
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:36.731 UTC: 	 Proxy valid for 47:59:48 hours
+DEBUG 2020-04-22 19:31:36.732 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:36.784 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:36.801 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:36.801 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:36.802 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:36.810 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:36.810 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:36.810 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:36.913 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172788
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:37.019 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172788
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:37.019 UTC: 	 Proxy valid for 47:59:48 hours
+DEBUG 2020-04-22 19:31:37.020 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:37.096 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:37.113 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:37.113 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:37.114 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:37.122 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:37.123 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:37.123 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:37.227 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172787
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:37.333 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172787
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:37.333 UTC: 	 Proxy valid for 47:59:47 hours
+DEBUG 2020-04-22 19:31:37.335 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:37.389 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:37.406 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:37.407 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:37.407 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:37.416 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:37.416 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:37.416 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:37.521 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172787
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:37.626 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172787
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:37.627 UTC: 	 Proxy valid for 47:59:47 hours
+DEBUG 2020-04-22 19:31:37.628 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:37.675 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:37.692 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:37.692 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:37.693 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:37.701 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:37.702 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:37.702 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:37.805 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172787
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:37.911 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172787
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:37.911 UTC: 	 Proxy valid for 47:59:47 hours
+DEBUG 2020-04-22 19:31:37.912 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:37.961 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:37.978 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:37.979 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:37.979 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:37.987 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:37.987 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:37.987 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:38.091 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172786
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:38.196 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172786
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:38.196 UTC: 	 Proxy valid for 47:59:46 hours
+DEBUG 2020-04-22 19:31:38.197 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:31:38.243 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:31:38.259 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:31:38.260 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:31:38.260 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:31:38.268 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:31:38.269 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:31:38.269 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:31:38.374 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172786
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:38.479 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172786
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:31:38.480 UTC: 	 Proxy valid for 47:59:46 hours
+DEBUG 2020-04-22 19:31:38.481 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-04-22 19:40:09.968 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-22 19:40:09.986 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-22 19:40:09.986 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-22 19:40:09.987 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-22 19:40:09.995 UTC: 	 Checking credentials
+DEBUG 2020-04-22 19:40:09.996 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-22 19:40:09.996 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-22 19:40:10.101 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172274
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:40:10.206 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172274
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-22 19:40:10.206 UTC: 	 Proxy valid for 47:51:14 hours
+INFO 2020-04-22 19:40:10.207 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-mc_monoHiggs_wDNN.py
+DEBUG 2020-04-22 19:40:10.207 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-04-22 19:40:44.971 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-04-22 19:40:44.972 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_22April2020/crab_job_DY4JetsToLL_M-50_TuneCP5' already exists 
+Please change the requestName in the config file
+ERROR 2020-04-22 19:40:44.972 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_22April2020/crab_job_DY4JetsToLL_M-50_TuneCP5' already exists 
+Please change the requestName in the config file
+DEBUG 2020-04-26 09:38:36.933 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-26 09:38:36.971 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-26 09:38:36.972 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-26 09:38:36.972 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-26 09:38:36.989 UTC: 	 Checking credentials
+DEBUG 2020-04-26 09:38:36.989 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-26 09:38:36.989 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-26 09:38:37.097 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 162836
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-26 09:38:37.206 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 162836
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-26 09:38:37.206 UTC: 	 Proxy valid for 45:13:56 hours
+INFO 2020-04-26 09:38:37.206 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-data_monoHiggs_wDNN.py
+DEBUG 2020-04-26 09:38:37.207 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-04-26 09:46:45.805 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-04-26 09:46:45.806 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2017_31Mar2018_26April2020/crab_job_MuonEG_EraF' already exists 
+Please change the requestName in the config file
+ERROR 2020-04-26 09:46:45.807 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2017_31Mar2018_26April2020/crab_job_MuonEG_EraF' already exists 
+Please change the requestName in the config file
+DEBUG 2020-04-26 09:46:46.565 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-26 09:46:46.606 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-26 09:46:46.607 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-26 09:46:46.608 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-26 09:46:46.621 UTC: 	 Checking credentials
+DEBUG 2020-04-26 09:46:46.622 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-26 09:46:46.622 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-26 09:46:46.830 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 162347
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-26 09:46:47.039 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 162347
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-26 09:46:47.040 UTC: 	 Proxy valid for 45:05:47 hours
+INFO 2020-04-26 09:46:47.040 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-mc_monoHiggs_wDNN.py
+DEBUG 2020-04-26 09:46:47.041 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-04-26 10:05:42.154 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-04-26 10:05:42.156 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_26April2020/crab_job_ZZZ_TuneCP5' already exists 
+Please change the requestName in the config file
+ERROR 2020-04-26 10:05:42.156 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_26April2020/crab_job_ZZZ_TuneCP5' already exists 
+Please change the requestName in the config file
+DEBUG 2020-04-26 12:43:39.304 UTC: 	 Running on: Linux login03.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-04-26 12:43:39.321 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-04-26 12:43:39.322 UTC: 	 Executing command: 'submit'
+DEBUG 2020-04-26 12:43:39.322 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+DEBUG 2020-04-26 12:43:39.330 UTC: 	 Checking credentials
+DEBUG 2020-04-26 12:43:39.331 UTC: 	 Found proxy file /tmp/x509up_u4548
+DEBUG 2020-04-26 12:43:39.331 UTC: 	 Getting proxy life time left
+DEBUG 2020-04-26 12:43:39.435 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -timeleft
+ output : 172414
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-26 12:43:39.541 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u4548 -actimeleft
+ output : 172414
+
+ error: 
+ retcode : 0
+DEBUG 2020-04-26 12:43:39.541 UTC: 	 Proxy valid for 47:53:34 hours
+INFO 2020-04-26 12:43:39.541 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-mc_monoHiggs_wDNN.py
+DEBUG 2020-04-26 12:43:39.541 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-04-26 12:44:01.534 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-04-26 12:44:01.537 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_26April2020/crab_job_DY4JetsToLL_M-50_TuneCP5' already exists 
+Please change the requestName in the config file
+ERROR 2020-04-26 12:44:01.537 UTC: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 324, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.2001/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 418, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_26April2020/crab_job_DY4JetsToLL_M-50_TuneCP5' already exists 
+Please change the requestName in the config file
+DEBUG 2020-06-09 00:11:24.239 UTC: 	 CRAB Client version: 3.3.2005
+DEBUG 2020-06-09 00:11:24.240 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-06-09 00:11:24.277 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-06-09 00:11:24.278 UTC: 	 Executing command: 'submit'
+DEBUG 2020-06-09 00:11:24.280 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+INFO 2020-06-09 00:11:24.303 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-data_monoHiggs_wDNN.py
+DEBUG 2020-06-09 00:11:24.303 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-06-09 00:20:29.228 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-06-09 00:20:29.229 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2017_31Mar2018_09Jun2020/crab_job_MuonEG_EraF' already exists 
+Please change the requestName in the config file
+ERROR 2020-06-09 00:20:29.230 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/lib/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/lib/CRABClient/Commands/SubCommand.py", line 323, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/lib/CRABClient/ClientUtilities.py", line 407, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_data2017_31Mar2018_09Jun2020/crab_job_MuonEG_EraF' already exists 
+Please change the requestName in the config file
+INFO 2020-06-09 00:20:29.300 UTC: 	 Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab.log
+DEBUG 2020-06-09 00:20:30.634 UTC: 	 CRAB Client version: 3.3.2005
+DEBUG 2020-06-09 00:20:30.635 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-06-09 00:20:30.662 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-06-09 00:20:30.663 UTC: 	 Executing command: 'submit'
+DEBUG 2020-06-09 00:20:30.664 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+INFO 2020-06-09 00:20:30.666 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-mc_monoHiggs_wDNN.py
+DEBUG 2020-06-09 00:20:30.666 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-06-09 00:41:39.964 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-06-09 00:41:39.965 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_09Jun2020/crab_job_ZZZ_TuneCP5' already exists 
+Please change the requestName in the config file
+ERROR 2020-06-09 00:41:39.965 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/lib/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/lib/CRABClient/Commands/SubCommand.py", line 323, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/lib/CRABClient/ClientUtilities.py", line 407, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_09Jun2020/crab_job_ZZZ_TuneCP5' already exists 
+Please change the requestName in the config file
+INFO 2020-06-09 00:41:39.973 UTC: 	 Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab.log
+DEBUG 2020-06-09 00:59:53.961 UTC: 	 CRAB Client version: 3.3.2005
+DEBUG 2020-06-09 00:59:53.962 UTC: 	 Running on: Linux login06.hep.wisc.edu 4.4.216-1.el7.elrepo.x86_64 #1 SMP Wed Mar 11 09:13:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-06-09 00:59:53.998 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-06-09 00:59:53.999 UTC: 	 Executing command: 'submit'
+DEBUG 2020-06-09 00:59:54.000 UTC: 	 Found CRAB cache file /afs/hep.wisc.edu/home/ms/.crab3
+INFO 2020-06-09 00:59:54.002 UTC: 	 Will use CRAB configuration file crab/multicrab-2017-mc_monoHiggs_wDNN.py
+DEBUG 2020-06-09 00:59:54.002 UTC: 	 Loading CRAB configuration file.
+DEBUG 2020-06-09 01:00:26.023 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2020-06-09 01:00:26.024 UTC: 	 Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_09Jun2020/crab_job_DY4JetsToLL_M-50_TuneCP5' already exists 
+Please change the requestName in the config file
+ERROR 2020-06-09 01:00:26.024 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/lib/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/lib/CRABClient/Commands/SubCommand.py", line 323, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/3.3.2005/lib/CRABClient/ClientUtilities.py", line 407, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab_MC2017_12Apr2018_monoHiggs_09Jun2020/crab_job_DY4JetsToLL_M-50_TuneCP5' already exists 
+Please change the requestName in the config file
+INFO 2020-06-09 01:00:26.032 UTC: 	 Log file is /afs/hep.wisc.edu/user/ms/monoHiggs_2017/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/crab.log

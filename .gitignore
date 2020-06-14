@@ -1,0 +1,16 @@
+__init__.py
+*.pyc
+*.so
+*.root
+.*.swp
+**/*~
+**/*#
+._*
+*.out
+
+
+run_102X_data2018_*.py
+run_dnn_test_v2_*.py
+crab_MC2017*/
+crab_data2017*/
+lumisprocessed/
